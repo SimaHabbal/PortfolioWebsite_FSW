@@ -1,0 +1,83 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+
+}
+
+header {
+    background-color: #005325;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.general {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+.projects {
+    padding: 20px;
+}
+
+.gallery {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery img {
+    max-width: 30%;
+    margin: 10px;
+}
+
+.about-me ol li {
+  margin-left: 40px;
+}
+.contact {
+    text-align: center;
+    margin-bottom: 5%;
+}
+.contact table {
+    width: 100%;
+    margin: 0 auto; /* Center the table horizontally */
+}
+.btn {
+
+    color: #fff;
+    background-color: #005325;
+}
+footer {
+    background-color: #005325;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
